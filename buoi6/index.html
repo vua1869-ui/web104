@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            font-family:Arial, Helvetica, sans-serif;
+            color: rgb(100, 72, 127);
+        }
+    * {
+        box-sizing: border-box;
+    }  
+    header {
+        /* height: 120px; */
+        background-color: chartreuse;
+        color: rgb(161, 14, 19);
+        text-align: center;
+        padding: 30px;
+    }
+    nav {
+        background-color: darkgrey;
+        text-align: center;
+        padding: 15px;
+    }
+    nav a {
+        padding: 15px;
+        color: aliceblue;
+        text-decoration: none;
+    }
+    nav a:hover {
+        color: chocolate;
+    }
+    /* nội dung chính */
+    .container {
+        width: 90%;
+        margin: 20px auto;
+    }
+    .sidebar {
+        width: 25%;
+        float: left;
+        background-color: aqua;
+        padding: 15px;
+        /* margin-right: 20px; */
+        border: 1px solid;
+        border-radius: 10px;
+    }
+    .content {
+        width: 72px;
+        float: right;
+        background-color: aquamarine;
+        padding: 15px;
+
+    }
+    .clear {
+        clear: both;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>web của tiến anh</h1>
+        <p>học thiết kế với HTML & CSS </p>
+    
+    </header>
+    <nav>
+        <a href="#">Trang chủ</a>
+        <a href="#">Giới thiệu</a>
+        <a href="#">Khóa học</a>
+        <a href="#">Liên hệ</a>
+    </nav>
+    <div class="container">
+    
+        <aside class="sidebar">
+            <h3>Danh mục</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Java</li>
+                <li>thiet ke web</li>
+            </ul>
+        </aside>
+        <main class="content">
+            <p>đây là trang web don phương được thiết kế bằng html</p>
+            <h2>nhúng vd fb</h2>
+        </main>
+        <div class="clear"></div>
+    </div>
+<footer>tanhvt- websize thiết kế web với HTML & CSS</footer>
+</body>
+</html>
